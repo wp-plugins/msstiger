@@ -2,11 +2,11 @@
 /*********************************************************************************
  *
  * Plugin Name: Mss Tiger
- * Plugin URI: http://mastersoftwaretechnologies.com/
+ * Plugin URI: http://mastersoftwaresolutions.com/
  * Description: Mss Tiger Plugin allows to fetch your VTiger crm leads and contacts form fields and let you generate forms for your wordpress website.
  * Version: 1.1.1
- * Author: mastersoftwaretechnologies.com
- * Author URI: http://mastersoftwaretechnologies.com/
+ * Author: mastersoftwaresolutionsindia
+ * Author URI: http://mastersoftwaresolutions.com/
 
  ********************************************************************************/
 

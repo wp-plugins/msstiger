@@ -1,6 +1,6 @@
 === Mss Tiger ===
-Contributors: mastersoftwaresolutions
-Donate link: http://mastersoftwaretechnologies.com/
+Contributors: mastersoftwaresolutionsindia
+Donate link: http://mastersoftwaresolutions.com/
 Tags: crm, admin, administration, automatic, contact, form, list, newsletter, plugin, shortcode, sidebar, widget, widgets, wordpress, vtiger, lead, wptiger, lead capture, form generator, form builder, contact sync, vtiger crm, optin form, form
 Requires at least: 3.5
 Tested up to: 3.9.1
