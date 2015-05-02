@@ -1,9 +1,9 @@
 <?php
 
 global $wptigermenus;
-$wptigermenus = array('vtiger_db_fields' => __('Lead Form Fields'), 'widget_fields' => __('Contact Form Fields'), 'capture_wp_users' => __('Sync WP Users'), 'plugin_settings' => __('Settings'), 'mss_tiger_listShortcodes' => __('List Shortcodes'));
+$wptigermenus = array('vtiger_db_fields' => __('Lead Form Fields'), 'widget_fields' => __('Contact Form Fields'), 'capture_wp_users' => __('Sync WP Users'), 'plugin_settings' => __('Settings'), 'vts_tiger_listShortcodes' => __('List Shortcodes'));
 
-function msst_topnavmenu() {
+function vtst_topnavmenu() {
 	global $wptigermenus;
 	$class = "";
 	$top_nav_menu = "<div class='nav-pills-div '>";
@@ -19,7 +19,7 @@ function msst_topnavmenu() {
 				$class = "button button-primary";
 			}
 
-			$top_nav_menu .= '<li > <a href="?page=Mss_tiger&action=' . $links . '" class = "saio_nav_smartbot"><button class="' . $class . '" type="button">' . $text . '</button></a> </li>';
+			$top_nav_menu .= '<li > <a href="?page=Vts_tiger&action=' . $links . '" class = "saio_nav_smartbot"><button class="' . $class . '" type="button">' . $text . '</button></a> </li>';
 			$class = "";
 		}
 	}
@@ -29,7 +29,7 @@ function msst_topnavmenu() {
 	return $top_nav_menu;
 }
 
-function msst_getActionMssTiger() {
+function vtst_getActionVtsTiger() {
 	if (isset($_REQUEST['action'])) {
 		$action = $_REQUEST['action'];
 	} else {
@@ -38,6 +38,6 @@ function msst_getActionMssTiger() {
 	return $action;
 }
 
-function msst_displaySettings() {
+function vtst_displaySettings() {
 	echo "<h3>Please save the settings first</h3>";
 }

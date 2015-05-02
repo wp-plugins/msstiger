@@ -33,10 +33,10 @@ Here is the list of key features the plugin provides.
 
 == Installation ==
 
-1. Upload `msstiger.zip` to the `/wp-content/plugins/` directory
+1. Upload `vtstiger.zip` to the `/wp-content/plugins/` directory
 2. Extract the zip in `/wp-content/plugins/` directory
 3. Activate the plugin through wp plugins panel.
-4. Go to Mss Tiger settings page.
+4. Go to Vts Tiger settings page.
 5. Provide your VTiger CRM access details which includes VTiger `Database Host name`, `Database Username` , `Database Password` and `Database name`.You can test the details by clicking on `Test Database Connection`
 6. Provide `VTiger Hostname` , `Admin Username` and VTiger `access key` to let you connect with VTiger using your wp-admin. You can test the details by clicking on `Test VTiger Credentials`
 5. Now you are ready to go.

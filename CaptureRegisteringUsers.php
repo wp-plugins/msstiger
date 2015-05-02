@@ -1,9 +1,9 @@
 <?php
 
-function msst_mss_tiger_capture_registering_users($user_id) {
+function vtst_vts_tiger_capture_registering_users($user_id) {
 	$siteurl = site_url();
-	$config = get_option('Mss_vtpl_settings');
-	if ($config['wp_tiger_msst_user_capture'] == 'on') {
+	$config = get_option('Vts_vtpl_settings');
+	if ($config['wp_tiger_vtst_user_capture'] == 'on') {
 		$user_data = get_userdata($user_id);
 		$user_email = $user_data->data->user_email;
 		$user_lastname = get_user_meta($user_id, 'last_name', 'true');
@@ -30,13 +30,13 @@ function msst_mss_tiger_capture_registering_users($user_id) {
 		$module = "Contacts";
 
 		if ($version == 6) {
-			global $plugin_dir_mss_tiger;
-			chdir($plugin_dir_mss_tiger);
-			include_once $plugin_dir_mss_tiger . "vtwsclib/Vtiger/WSClient.php";
+			global $plugin_dir_vts_tiger;
+			chdir($plugin_dir_vts_tiger);
+			include_once $plugin_dir_vts_tiger . "vtwsclib/Vtiger/WSClient.php";
 
 			$url = $config['url'];
-			$username = $config['Mss_host_username'];
-			$accesskey = $config['MSS_host_access_key'];
+			$username = $config['Vts_host_username'];
+			$accesskey = $config['VTS_host_access_key'];
 			$client = new Vtiger_WSClient($url);
 			$login = $client->doLogin($username, $accesskey);
 			if (!$login) {
