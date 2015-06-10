@@ -29,7 +29,12 @@ Here is the list of key features the plugin provides.
 * Short codes to integrate both contact and lead capture form in post/page.    
 * Adding captcha support to all system generated form's.    
 * Plugin uses VTiger web service API's to sync with VTiger CRM.    
-* Generate unlimited short-code for the contact  and lead form's.       
+* Generate unlimited short-code for the contact  and lead form's.  
+* Change the position order of the fields from WordPress dashboard itself.
+* Create, Edit, and manage form settings
+* Capture contacts directly to VTiger CRM
+* Mini widget forms to accommodate within any theme sidebar. So no design modification needed.
+* You can sync old registered members to VTiger CRM contacts.
 
 == Installation ==
 
