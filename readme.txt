@@ -66,8 +66,10 @@ It uses the CRM API and access credentials which you provided in settings sectio
 
 == Changelog ==
 
-First Release
+= 1.1.0 =
+*Release Date - 10th June, 2015*
 
 == Upgrade notice ==
 
-First Release
+= 1.1.0 =
+*Release Date - 10th June, 2015*
