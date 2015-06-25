@@ -6,6 +6,7 @@ Requires at least: 3.5
 Tested up to: 4.2.2
 Stable tag: 4.1.1
 License: GPLv2 or later
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 WP VTiger Synchronization Plugin allows to fetch your VTiger crm leads and contacts form fields and let you generate forms for your wordpress website.
